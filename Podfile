@@ -6,9 +6,9 @@ target 'PowerupiOS' do
   use_frameworks!
 
   # Pods for PowerupiOS
+	pod 'Firebase/Core'
 	pod 'Firebase/Auth'
 	pod 'Firebase/Database'
-	pod 'Firebase/AdMob'
 
   target 'PowerupiOSTests' do
     inherit! :search_paths
