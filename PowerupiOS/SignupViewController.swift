@@ -22,7 +22,7 @@ class SignupViewController: UIViewController {
             Auth.auth().createUser(withEmail: email, password: password) {
                 user, error in
                 if error == nil && user != nil {
-                    print("user created")
+                    self.performSegue(withIdentifier: "fromSignupToMain", sender: self)
                 } else {
                     print(error?.localizedDescription)
                 }

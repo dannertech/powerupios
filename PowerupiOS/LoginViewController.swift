@@ -23,7 +23,11 @@ class LoginViewController: UIViewController {
         
         Auth.auth().signIn(withEmail: email, password: password){
             user, error in
-            
+            if error == nil && user != nil {
+                self.performSegue(withIdentifier: "fromLoginToMain", sender: self)
+            } else {
+                print("unsuccessful")
+            }
         }
     }
     

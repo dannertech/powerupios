@@ -11,6 +11,7 @@
 		A726895622507D8B00E7A71E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A726895522507D8B00E7A71E /* LoginViewController.swift */; };
 		A72689582250958800E7A71E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72689572250958800E7A71E /* GoogleService-Info.plist */; };
 		A726895A2251C60200E7A71E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72689592251C60200E7A71E /* SignupViewController.swift */; };
+		A726895C225203B700E7A71E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A726895B225203B700E7A71E /* MainViewController.swift */; };
 		A7279C9D2249F33700DFE26B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7279C9C2249F33700DFE26B /* AppDelegate.swift */; };
 		A7279C9F2249F33700DFE26B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7279C9E2249F33700DFE26B /* ViewController.swift */; };
 		A7279CA22249F33700DFE26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7279CA02249F33700DFE26B /* Main.storyboard */; };
@@ -75,6 +76,7 @@
 		A726895522507D8B00E7A71E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A72689572250958800E7A71E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A72689592251C60200E7A71E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A726895B225203B700E7A71E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A7279C992249F33700DFE26B /* PowerupiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerupiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7279C9C2249F33700DFE26B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7279C9E2249F33700DFE26B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				A7279C9C2249F33700DFE26B /* AppDelegate.swift */,
 				A7279C9E2249F33700DFE26B /* ViewController.swift */,
 				A7279CA02249F33700DFE26B /* Main.storyboard */,
+				A726895B225203B700E7A71E /* MainViewController.swift */,
 				A72689592251C60200E7A71E /* SignupViewController.swift */,
 				A726895522507D8B00E7A71E /* LoginViewController.swift */,
 				A7279CA62249F33A00DFE26B /* Assets.xcassets */,
@@ -451,6 +454,7 @@
 				A7279CA52249F33700DFE26B /* PowerupiOS.xcdatamodeld in Sources */,
 				A7279C9F2249F33700DFE26B /* ViewController.swift in Sources */,
 				A726895A2251C60200E7A71E /* SignupViewController.swift in Sources */,
+				A726895C225203B700E7A71E /* MainViewController.swift in Sources */,
 				A7279C9D2249F33700DFE26B /* AppDelegate.swift in Sources */,
 				A726895622507D8B00E7A71E /* LoginViewController.swift in Sources */,
 			);
