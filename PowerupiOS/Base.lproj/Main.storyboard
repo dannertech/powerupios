@@ -63,7 +63,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esv-1a-uQl">
-                                <rect key="frame" x="86" y="309" width="209" height="63"/>
+                                <rect key="frame" x="83" y="138" width="209" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -75,6 +75,14 @@
                                 <state key="normal" title="Log Out"/>
                                 <connections>
                                     <action selector="logOut:" destination="vAn-KH-3k5" eventType="touchUpInside" id="9lC-UO-3CE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXb-Ef-Bai">
+                                <rect key="frame" x="129" y="308" width="117" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add User"/>
+                                <connections>
+                                    <action selector="addUser:" destination="vAn-KH-3k5" eventType="touchUpInside" id="DpF-US-vqr"/>
                                 </connections>
                             </button>
                         </subviews>

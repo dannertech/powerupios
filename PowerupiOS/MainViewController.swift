@@ -8,16 +8,31 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseDatabase
+
+
 
 
 class MainViewController: UIViewController {
-
+    var ref: DatabaseReference!
+    
+    
     @IBAction func logOut(_ sender: Any) {
        try! Auth.auth().signOut()
         self.dismiss(animated: false, completion: nil)
     }
+    
+    @IBAction func addUser(_ sender: Any) {
+       let userID = Auth.auth().currentUser?.uid
+        self.ref.child("users").child(userID!).child("testing").setValue("works")
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
+        ref = Database.database().reference()
 
         // Do any additional setup after loading the view.
     }
