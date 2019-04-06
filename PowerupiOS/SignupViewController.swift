@@ -12,6 +12,7 @@ import FirebaseAuth
 class SignupViewController: UIViewController {
     @IBOutlet var emailText: UITextField!
     @IBOutlet var passwordText: UITextField!
+    @IBOutlet var usernameText: UITextField!
     @IBOutlet var confirmPasswordText: UITextField!
     
     @IBAction func submit(_ sender: Any) {
@@ -22,6 +23,17 @@ class SignupViewController: UIViewController {
             Auth.auth().createUser(withEmail: email, password: password) {
                 user, error in
                 if error == nil && user != nil {
+                   let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
+                   changeRequest?.displayName = self.usernameText.text
+                    changeRequest?.commitChanges{
+                        error in
+                        if error == nil {
+                            print("user display name changed")
+                        } else {
+                            print(error?.localizedDescription)
+                        }
+                    }
+                    
                     self.performSegue(withIdentifier: "fromSignupToMain", sender: self)
                 } else {
                     print(error?.localizedDescription)
