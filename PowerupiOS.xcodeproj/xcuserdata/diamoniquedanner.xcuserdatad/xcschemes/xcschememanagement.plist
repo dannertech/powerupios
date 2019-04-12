@@ -4,11 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>PowerupiOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+=======
+>>>>>>> 1acb1fbfeaeb223adef9d8f5bb5787e6873361c4
 		<key>PowerupiOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

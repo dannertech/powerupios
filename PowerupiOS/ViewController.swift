@@ -10,7 +10,10 @@ import UIKit
 import HMKit
 import AutoAPI
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1acb1fbfeaeb223adef9d8f5bb5787e6873361c4
 class ViewController: UIViewController{
  
 
@@ -26,7 +29,11 @@ class ViewController: UIViewController{
     
     func initialiseLocalDevice(){
         do {
+<<<<<<< HEAD
             try HMKit.shared.initialise(
+=======
+            try HMLocalDevice.shared.initialise(
+>>>>>>> 1acb1fbfeaeb223adef9d8f5bb5787e6873361c4
                 deviceCertificate: "dGVzdFtQKwFhjHevAyoj6vBBRDvWKZG/zdWFyVym4nlmaHrBV/ApHWjwlBpckucKcbnXcQcG4G1Hp1pvAB4+Seb++epENYLxCOlWKN5OsdOjBTLt2NiYCw7mDiMCkPWgHWmrqdM0Xtfp5UwTJT2foqJU/aKVR+htz1swq5cUAoYt0SU16SQnT1PYXJaiNXENYrlgwX4rx3VZ",
                 devicePrivateKey: "XBosI7J7RAWbPPYBI+f5tRxJOD6lthUkC7wTK92LfhI=",
                 issuerPublicKey: "EUdVj6PpTCdo4Nc5FQBfenJ7f3X9tNjZHedgFHw4dwjHCYlJQU/YkdBHWLgsXPLpinKD7wedAPlG+MnzTOmloQ=="
