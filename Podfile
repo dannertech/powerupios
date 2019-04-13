@@ -1,17 +1,7 @@
 # Uncomment the next line to define a global platform for your project
-<<<<<<< HEAD
 
-#platform :ios, '12.1'
-
-
-
-=======
-<<<<<<< HEAD
-#platform :ios, '12.1'
-=======
 # platform :ios, '9.0'
->>>>>>> 1acb1fbfeaeb223adef9d8f5bb5787e6873361c4
->>>>>>> 87941fb1a0ec038783e080c3f1ddefbecd228904
+
 
 target 'PowerupiOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
